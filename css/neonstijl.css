@@ -1,0 +1,292 @@
+@media (max-width: 412px) {
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #0d021d;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  .none {
+    display: none;
+  }
+
+  /* Container */
+  .container {
+    max-width: 412px;
+    margin: auto;
+    background-color: #0d021d;
+  }
+
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+  }
+
+  .logo img {
+    height: 71.67px;
+    margin-left: 20px;
+  }
+
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  .menu-icon div {
+    width: 25px;
+    height: 3px;
+    background-color: #ff0;
+  }
+
+  .content {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: left;
+  }
+
+  .content h1 {
+    font-size: 32px;
+    width: 286px;
+  }
+
+  .content p {
+    font-size: 15px;
+    max-width: 286px;
+    max-height: 153px;
+  }
+
+  hr {
+    width: 20em;
+  }
+
+  .content-game {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: left;
+  }
+
+  .content-game h1 {
+    font-size: 32px;
+    width: 286px;
+  }
+
+  .content-game p {
+    font-size: 15px;
+    max-width: 286px;
+    max-height: 300px;
+  }
+
+  .content-game img {
+    padding: 44px;
+  }
+
+  .content-aansluiten {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: left;
+  }
+
+  .content-aansluiten h1 {
+    font-size: 32px;
+    width: 286px;
+  }
+
+  .content-aansluiten p {
+    font-size: 15px;
+    max-width: 286px;
+    max-height: 300px;
+  }
+
+  .content-aansluiten img {
+    padding: 44px;
+  }
+
+  .footer-page {
+    align-items: center;
+    text-align: center;
+  }
+
+  ul {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 3.5em;
+  }
+
+  .nieuws {
+    border-radius: 20px;
+  }
+
+  .footer-page p {
+    margin-top: 2em;
+  }
+
+  .copy {
+    text-align: left;
+    font-size: 10px;
+  }
+}
+
+/* TBALET */
+
+@media (max-width: 1280px) {
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #0d021d;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  .none {
+    display: none;
+  }
+
+  /* Container */
+  .container {
+    max-width: 412px;
+    margin: auto;
+    background-color: #0d021d;
+  }
+
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+  }
+
+  .logo img {
+    height: 71.67px;
+    margin-left: 20px;
+  }
+
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  .menu-icon div {
+    width: 25px;
+    height: 3px;
+    background-color: #ff0;
+  }
+
+  .content {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: left;
+  }
+
+  .content h1 {
+    font-size: 32px;
+    width: 286px;
+  }
+
+  .content p {
+    font-size: 15px;
+    max-width: 286px;
+    max-height: 153px;
+  }
+
+  hr {
+    width: 20em;
+  }
+
+  .content-game {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: left;
+  }
+
+  .content-game h1 {
+    font-size: 32px;
+    width: 286px;
+  }
+
+  .content-game p {
+    font-size: 15px;
+    max-width: 286px;
+    max-height: 300px;
+  }
+
+  .content-game img {
+    padding: 44px;
+  }
+
+  .content-aansluiten {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: left;
+  }
+
+  .content-aansluiten h1 {
+    font-size: 32px;
+    width: 286px;
+  }
+
+  .content-aansluiten p {
+    font-size: 15px;
+    max-width: 286px;
+    max-height: 300px;
+  }
+
+  .content-aansluiten img {
+    padding: 44px;
+  }
+
+  .footer-page {
+    align-items: center;
+    text-align: center;
+  }
+
+  ul {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 3.5em;
+  }
+
+  .nieuws {
+    border-radius: 20px;
+  }
+
+  .footer-page p {
+    margin-top: 2em;
+  }
+
+  .copy {
+    text-align: left;
+    font-size: 10px;
+  }
+}
